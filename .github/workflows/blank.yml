@@ -29,7 +29,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-         docker build -t aula29096va.azurecr.io/ribeiro:v1 .
-         docker login -u aula2909tk -p FSZsTdoivwo7rDmPjBgFJ4f28JfOH4jmioNoVPbPdYHiNiJqKOoRJQQJ99CIACR0EKYEqg7NAAABAZCRbtbG aula29096va.azurecr.io
-         docker push aula29096va.azurecr.io/ribeiro:v1
-         
+         docker build -t zecarlos.azurecr.io/ribeiro:v1 .
+         docker login -u zecarlostk -p 9zQwKGrGIYvt1CIEBsZNn6d0ILW9WITo7Gcyh7jaADtT4wc1piaNJQQJ99CJACfhMk5Eqg7NAAABAZCREeZT zecarlos.azurecr.io
+         docker push zecarlos.azurecr.io/ribeiro:v1
